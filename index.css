@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 12px;
+    background-color:#845EC2;
+    margin-top: 24px;
+    color: #4FFBDF;
+    width: 50%;
+    gap: 4px;
+    border-radius: 8px;
+    padding: 12px;
+}
+#fotoBoy{
+    width: 100px;
+    height: 100px;
+  border-radius: 50%;
+}
+.botao{
+    background-color:#00C2A8;
+    border: 1px solid transparent;
+    width: 170px;
+}
+p{
+    color: black;
+}
